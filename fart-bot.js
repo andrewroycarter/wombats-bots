@@ -8,7 +8,7 @@
   const previousState = state['saved-state'] || {}
   const previousMove = previousState['previous-move'] || none
   const lastTurnWasTurn = previousMove === turn
-  const shouldTurn = (Math.floor((Math.random() * 10) + 1) == 1) && !lastTurnWasTurn
+  const shouldTurn = (Math.floor((Math.random() * 20) + 1) == 1) && !lastTurnWasTurn
 
   var move
   if (shouldTurn) {
